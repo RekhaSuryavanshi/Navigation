@@ -1,7 +1,6 @@
 import 'react-native-gesture-handler';
 import * as React from 'react';
 //import 'react-native-gesture-handler';
-//import { DrawerNavigations } from './src/navigation/DrawerNavigations';
 //import { Text, View } from 'react-native';
 //import BottomTabNavigation from './src/navigation/BottomTabNavigation';
 import { NativeStackNavigation } from './src/navigation/NativeStackNavigation';
@@ -12,8 +11,6 @@ function App() {
     <NativeStackNavigation />
     //<BottomTabNavigation />
     //<DrawerNavigations />
-
   );
 }
-
 export default App;

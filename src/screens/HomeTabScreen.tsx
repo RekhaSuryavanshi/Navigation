@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import React from 'react';
 
-export default function HomeTabScreen() {
+function HomeTabScreen() {
     return (
         <View style={styles.viewStyle}>
             <Text style={styles.text}>HomeTabScreen!!</Text>
@@ -21,3 +21,4 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
 });
+export default HomeTabScreen;

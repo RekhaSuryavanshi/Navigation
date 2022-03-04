@@ -1,14 +1,6 @@
-//import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
-//import { RootStackParamList } from '../navigation/NativeStackNavigation';
 
-// export type BottomTabParamList = {
-//     HomeTab: undefined;
-//     SettingTab: undefined;
-// };
-
-// type Props = NativeStackScreenProps<RootStackParamList, 'Privacy'>;
 interface PrivacyProps {
     navigation: any
 }

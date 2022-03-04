@@ -4,7 +4,7 @@ import Privacy from './Privacy';
 import AccountInfo from './AccountInfo';
 const SettingStack = createNativeStackNavigator();
 
-export default function SettingTabScreen() {
+function SettingTabScreen() {
     return (
         <SettingStack.Navigator screenOptions={{ headerShown: false }}>
             <SettingStack.Screen name="Privacy" component={Privacy} />
@@ -12,3 +12,4 @@ export default function SettingTabScreen() {
         </SettingStack.Navigator>
     );
 }
+export default SettingTabScreen;

@@ -1,10 +1,14 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button } from 'react-native';
 import React from 'react';
 
-export default function NotificationsDrawerScreen() {
+function NotificationsDrawerScreen({ navigation }: any) {
     return (
         <View style={styles.viewStyle}>
             <Text style={styles.text}>Notification Screen!!</Text>
+            <Button
+                title="Go Back to HOME"
+                onPress={() => navigation.navigate('HomeDrawer')}
+            />
         </View>
     );
 }
@@ -21,3 +25,4 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
 });
+export default NotificationsDrawerScreen;
