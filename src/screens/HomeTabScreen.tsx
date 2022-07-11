@@ -1,10 +1,14 @@
 import { View, Text, StyleSheet } from 'react-native';
 import React from 'react';
+import CImage from '../components/atoms/image/CImage';
+import CText from '../components/atoms/label/CText';
 
 function HomeTabScreen() {
     return (
         <View style={styles.viewStyle}>
             <Text style={styles.text}>HomeTabScreen!!</Text>
+            <CImage.member />
+            <CText.headerTitle>Trial Text</CText.headerTitle>
         </View>
     );
 }
